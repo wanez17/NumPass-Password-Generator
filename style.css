@@ -1,0 +1,142 @@
+
+body{
+	background: linear-gradient(white,cyan,blue);
+	height: 100vh;
+	width: 100%;
+	font-size: 16px;
+	font-family: geneva,century gothic, sans-serif;
+}
+
+
+h1{
+	font-family: geneva,century gothic, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+	text-shadow: 2px 0px 3px black;
+	background-color: #fcda23;
+	font-size: 300%;
+}
+
+#mainDiv{
+	max-width: 600px;
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid darkblue;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+strong{color: red;
+text-shadow: 1px 0px 3px white;
+}
+#generate{
+	display: block;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	font-size: 150%;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: bolder;
+}
+
+#generate:hover{
+	background-color: white;
+	color: black;
+	border: none;
+	font-weight: bolder;
+}
+
+
+#credits{
+	color: black;
+	background-color: white;
+	
+}
+
+#credits a{
+	text-decoration: none;
+	color: blue;
+
+}
+
+
+
+img{
+	max-width: 120px;
+	max-height: 50px;
+}
+
+span{
+	color: red;
+	padding:3px 5px;
+	letter-spacing: 2px;
+	font-weight: bold;
+
+}
+
+.result{
+	text-align: center;
+}
+
+#warning{
+	text-align: center;
+}
+
+.warning{
+	
+	color: red;
+	padding-top: 5px;
+}
+
+#abb{
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+	color: white;
+	text-shadow: 2px 0px 3px black;
+	display: none;
+}
+
+#btn1{
+	display: none;
+}
+
+
+#btn{
+	color: white;
+	font-weight: bolder;
+	background-color: red;
+	border-radius: 10px;
+	border: none;
+	padding: 10px;
+	box-shadow: -1px -1px 3px black;
+
+}
+
+
+#btn1{
+	color: black;
+	font-weight: bolder;
+	background-color: white;
+	border-radius: 10px;
+	border: none;
+	padding: 10px;
+	box-shadow: 2px 2px 5px black;
+}
+
+h3{
+	text-align: center;
+	padding: 10px 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+#computer-choice{
+font-weight: bolder;
+font-size: 150%;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NumPass Password Generator</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.structure.css">
+<link rel="stylesheet" type="text/css" href="jqueryui/jquery-ui.theme.css">
+<body>
+
+	
+<img src="NumPass.png">
+<div id="mainDiv">
+<h1>NumPass Password Generator</h1>
+
+
+<h3 class="result">Your Password is:<br><span id="computer-choice"></span></h3>
+<h2 style="display: none;"><span id="user-choice"></span></h2>
+<h2 style="display: none;">:<span id="result"></span></h2>
+
+<button id="rock" style="display: none;"></button>
+<button id="paper" style="display: none;"></button>
+<button id="generate">GENERATE PASSWORD</button>
+<br>
+<div id="btndiv">
+<button id="btn">View Description</button>
+<button id="btn1">Hide Description</button>
+</div>
+<br>
+<div id="abb">
+You just click on the <strong>GENERATE PASSWORD</strong> button to get your new password,copy and paste it in any account that you wish to secure
+<br>
+If you do not like the password,click on the button again to get a new one
+<br>
+<strong>NOTE:</strong>The password generated here are numeric passwords hence the name "NumPass". So the constant symbols at the end can be replaced with any other symbols if the user is not permitted to use only numeric passwords. <br><strong>Thank you!</strong></h4>
+</div>
+
+</div>
+
+
+<h2 id="warning">
+		<span class="warning">DISCLAIMER!</span>
+		<br>
+	We have not yet created any password recovery options
+	and we are therefore not responsible if you forget your password so kindly make sure you keep your generated password safe</h2>
+
+
+<br>
+<br>
+<h3 id="credits">Copyright&copy 2022| Created By <a href="https://www.twitter.com/coDe17lolly">MOHAMMED AWAL</a> | Inspired by <a href="https://www.freecodecamp.org">FreeCodeCamp</a></h3>
+</body>
+<script src="script.js"></script>
+<script src="jquery.js"></script>
+<script src="jqueryui/jquery-ui.js"></script>
+<script>
+	$(document).ready(function() {
+$("#warning").dialog({draggable: false,resizable:false, width:400,show:"bounce",hide:"explode",closeOnEscape:false, modal: true, heightStyle:"content"});
+
+
+$("#btn").click(function() {
+
+$("#abb").fadeIn("90000");
+
+$("#btn").hide();
+
+$("#btn1").show();
+
+
+});
+
+
+$("#btn1").click(function() {
+
+$("#abb").fadeOut("90000");
+
+$("#btn1").hide();
+
+$("#btn").show();
+
+
+
+});
+
+
+});
+</script>
+
+</html>
